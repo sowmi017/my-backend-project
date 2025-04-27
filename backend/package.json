@@ -1,8 +1,8 @@
-
 {
   "name": "backend",
   "version": "1.0.0",
   "main": "server.js",
+  "description": "Backend server for the faculty workflow management app, using Express and MySQL.",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
