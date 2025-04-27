@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
-import Intro from "./Intro";  // Ensure the path is correct
+import Intro from './Intro';
 import Login from "./Login";
 import AdminLogin from "./Adminlogin";
 import Home from "./Home";
