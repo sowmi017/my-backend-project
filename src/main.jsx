@@ -7,7 +7,7 @@ import AdminLogin from "./Adminlogin";
 import Home from "./Home";
 import Attendance from "./Attendance";
 import Calendar from "./Calendar";
-import ApplyLeave from "./ApplyLeave";
+import ApplyLeave from "./ApplyLeave.jsx";;
 //import Message from "./Message";
 import Meeting from "./Meeting";
 import OD from "./OD";
