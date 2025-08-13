@@ -189,7 +189,6 @@ app.get("/faculty", async (req, res) => {
   }
 });
 
-
 // ✅ Delete Faculty
 app.delete("/faculty/:id", async (req, res) => {
   try {
@@ -206,7 +205,6 @@ app.delete("/faculty/:id", async (req, res) => {
     res.status(500).json({ error: "Server error" });
   }
 });
-
 
 // Apply Leave
 app.post("/apply-leave", verifyToken, upload.single("file"), async (req, res) => {
